@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to Fruitley</title>
+    <style rel="stylesheet" type="text/css">
+        .container
+        {
+            position: relative;
+        }
+        .logdetails
+        {
+            
+        position: absolute;
+            right: 605px;
+            top: 270px;
+            width: 280px;
+            height: 310px;
+            border-radius: 10px;
+            background-image: linear-gradient(180deg,#fc8d38,#faab6e,#fcd4b6);
+            z-index: 1;
+        }
+        .bgimage
+        {
+            width: 100%;
+            height: 800px;
+        }
+        .head1
+        {
+            font-size: 110%;
+            font-family:Franklin Gothic Heavy;
+            color:black;
+            letter-spacing: 1px;
+            margin-left: 3%;
+            
+
+        }
+        .head2
+        {
+            margin-left: 3%;
+            margin-top: -5%;
+            font-size: 80%;
+            font-family:Franklin Gothic Heavy;
+            color:black;
+            letter-spacing: 1px;
+        }
+        .texttype
+        {
+            color:saddlebrown;
+            font-size: 90%;
+            margin-left: 3%;  
+        }
+        .eml
+        {
+            width: 90%;
+            margin-left: 3%;
+            border-radius: 10%;
+        }
+        #pas
+        {
+            text-align: left;
+        }
+        .forli
+        {
+            margin-left: 57%;
+            font-size:87%;
+        }
+        .button
+        {
+            margin-left: 23%;
+            width: 50%;
+            height: 200%;
+            background-color: orange;
+            border-radius: 20px;
+        }
+        .logo
+        {
+            width: 20px;
+            height: 20px;
+            margin-left: 50px;
+        }
+        .textlogo
+        {
+            margin-left: 21%;
+            font-size: small;
+        }
+        .newlog
+        {
+            margin-left: 13%;
+            font-size: smaller;
+        }
+        .newbox
+        {
+            height: 600px;
+        width: 310px;
+         background-image: url('https://img.freepik.com/free-vector/abstract-orange-background_1182-686.jpg'); 
+        border-radius: 30px;
+        position: absolute;
+        top: 50px;
+        right: 590px;
+
+        }
+        .log
+    {
+        height: 12%;
+        width: 25%;
+        margin-left:37%;
+        margin-top: 20% ;
+    
+    }
+    .brand
+    {
+        font-family:Berlin Sans FB Demi;
+        color:darkred;
+        margin-top: -10px;
+        letter-spacing: 2px;
+        margin-left: 86px;
+    }
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img  class=" bgimage" src="https://www.psdgraphics.com/file/orange-background.jpg">
+        <div class="logdetails">
+            <form>
+                <h2 class="head1" id="wel">Welcome back</h2>
+                <h3 class="head2" id="wel"> Enter your credential to access your account</h3>
+                <label class="texttype" id="pas">E-mail ID : </label>
+                <br>
+                <input  class="eml" type="email" name="Email ID" placeholder="Enter your email">
+                <br><br>
+                <label class="texttype" id="pas">Password : </label>
+                <br>
+                <input class="eml" type="password" name="pass" placeholder="Enter your password">
+                <br>
+                <span class="forlink"><a  class="forli" href="#">forgot Password?</a></span>
+                <br><br>
+                <input class="button" type="submit" name="login" value="Login">
+                <p class="textlogo">Or Login using social Media</p>
+                <a  href="fblogo.png"><span><img  class="logo" src="fblogo.png"></span></a> 
+                <a  href="Googlelogo.png"><span><img class="logo" src="Googlelogo.png"></span></a> 
+                <a  href="instalogo.png"><span><img class="logo" src="instalogo.png"></span></a>
+
+             </form>
+                <br>
+            <span class="newlog">Don't have an account?<a href="Registerley.html">Register Now</a></span>
+        </div>
+        <div class="newbox">
+            <img class="log" src="Mainlogo.png">
+            <h1 class="brand">Fruitley</h1>
+        </div>
+    </div>
+
+</body>
+</html>
